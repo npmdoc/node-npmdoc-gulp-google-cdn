@@ -1,4 +1,7 @@
-# api documentation for  [gulp-google-cdn (v2.1.0)](https://github.com/sindresorhus/gulp-google-cdn)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-google-cdn.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-google-cdn) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-google-cdn.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-google-cdn)
+# npmdoc-gulp-google-cdn
+
+#### api documentation for  [gulp-google-cdn (v2.1.0)](https://github.com/sindresorhus/gulp-google-cdn)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-google-cdn.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-google-cdn) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-google-cdn.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-google-cdn)
+
 #### Replaces script references with Google CDN ones
 
 [![NPM](https://nodei.co/npm/gulp-google-cdn.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-google-cdn)
