@@ -70,28 +70,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-google-cdn.toString">
-            function <span class="apidocSignatureSpan">gulp-google-cdn.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.gulp-google-cdn.toString">module gulp-google-cdn.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-google-cdn.toString.toString">
-            function <span class="apidocSignatureSpan">gulp-google-cdn.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -131,71 +109,6 @@
 	});
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-google-cdn.toString" id="apidoc.element.gulp-google-cdn.toString">
-        function <span class="apidocSignatureSpan">gulp-google-cdn.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-		}
-
-		if (file.isStream()) {
-			cb(new gutil.PluginError(&#x27;gulp-google-cdn&#x27;, &#x27;Streaming not supported&#x27;));
-			return;
-		}
-
-		googlecdn(file.contents.<span class="apidocCodeKeywordSpan">toString</span>(), bowerConfig, options, function (err, data) {
-			if (err) {
-				cb(new gutil.PluginError(&#x27;gulp-google-cdn&#x27;, err, {fileName: file.path}));
-				return;
-			}
-
-			file.contents = new Buffer(data);
-			cb(null, file);
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.gulp-google-cdn.toString" id="apidoc.module.gulp-google-cdn.toString">module gulp-google-cdn.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-google-cdn.toString.toString" id="apidoc.element.gulp-google-cdn.toString.toString">
-        function <span class="apidocSignatureSpan">gulp-google-cdn.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-		}
-
-		if (file.isStream()) {
-			cb(new gutil.PluginError(&#x27;gulp-google-cdn&#x27;, &#x27;Streaming not supported&#x27;));
-			return;
-		}
-
-		googlecdn(file.contents.<span class="apidocCodeKeywordSpan">toString</span>(), bowerConfig, options, function (err, data) {
-			if (err) {
-				cb(new gutil.PluginError(&#x27;gulp-google-cdn&#x27;, err, {fileName: file.path}));
-				return;
-			}
-
-			file.contents = new Buffer(data);
-			cb(null, file);
-...</pre></li>
     </ul>
 
 
