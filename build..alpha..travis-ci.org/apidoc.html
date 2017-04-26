@@ -61,56 +61,12 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-google-cdn">module gulp-google-cdn</a><ol>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-google-cdn.gulp-google-cdn">
-            function <span class="apidocSignatureSpan"></span>gulp-google-cdn
-            <span class="apidocSignatureSpan">(bowerConfig, options)</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-google-cdn" id="apidoc.module.gulp-google-cdn">module gulp-google-cdn</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-google-cdn.gulp-google-cdn" id="apidoc.element.gulp-google-cdn.gulp-google-cdn">
-        function <span class="apidocSignatureSpan"></span>gulp-google-cdn
-        <span class="apidocSignatureSpan">(bowerConfig, options)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">gulp-google-cdn = function (bowerConfig, options) {
-	return through.obj(function (file, enc, cb) {
-		if (file.isNull()) {
-			cb(null, file);
-			return;
-		}
-
-		if (file.isStream()) {
-			cb(new gutil.PluginError(&#x27;gulp-google-cdn&#x27;, &#x27;Streaming not supported&#x27;));
-			return;
-		}
-
-		googlecdn(file.contents.toString(), bowerConfig, options, function (err, data) {
-			if (err) {
-				cb(new gutil.PluginError(&#x27;gulp-google-cdn&#x27;, err, {fileName: file.path}));
-				return;
-			}
-
-			file.contents = new Buffer(data);
-			cb(null, file);
-		});
-	});
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
 
 </div>
 
